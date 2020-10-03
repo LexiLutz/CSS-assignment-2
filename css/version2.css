@@ -21,11 +21,11 @@ img {
     max-width: 100%; /* DO NOT delete or change this line */
     display: block;
     margin: 0 auto;
-    text-align: center;
+    margin-top: 4rem;
+    text-align: left;
   }
 
 h2 {
-  text-align: center;
   margin: 0;
 }
 
@@ -60,20 +60,34 @@ nav ul li {
 }
 
 p {
+  display: block;
+  width: 100%;
   margin: 0;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  align-items: center;
+
 }
-footer{
+.photo{
+  margin: 0;
+  display: block;
+  width: 100%
+  padding:70px;
+  width: 37%;
+  color: #000;
+}
+
+
+
+footer {
+  margin: 0;
   text-align: center;
 }
 
 .text {
+
   width: 600px;
   font-size: 110%;
   line-height: 1.6;
-  background: #fff;
   color: #000;
   padding: 50px;
   margin: 0;
@@ -82,45 +96,46 @@ footer{
 
 #cougar {
   display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      flex-direction: column;
+      justify-content: space-evenly;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      flex: 1 1 0;
   background:#B26219;
   max-width: 100%;
   margin-top: .25rem;
   padding: 40px;
+  padding-top: 40px;
   margin: 0;
-  align-items: center;
 
 }
 
 #lion{
   display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      flex-direction: column;
+      justify-content: space-evenly;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      flex: 1 1 0;
   background: #FFBD82;
   max-width: 100%;
   margin-top: .25rem;
   padding: 40px;
+  padding-top: 40px;
   margin: 0;
-  align-items: center;
 
 
 }
 
 #tiger{
   display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      flex-direction: column;
+      justify-content: space-evenly;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      flex: 1 1 0;
   background: #FFD5AE;
   max-width: 100%;
   margin-top: .25rem;
   padding: 40px;
   margin: 0;
-  align-items: center;
-
 
 
 }
@@ -148,7 +163,7 @@ footer{
         specific articles or sections to improve CONTRAST --- */
 
 a{
-    color: #262626;
+    color: #F2F2F2;
 }
 
 a:hover {
